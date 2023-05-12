@@ -65,8 +65,28 @@
            android:layout_height="wrap_content"
            android:layout_gravity="end"
            android:layout_marginTop="10sp"
-           android:text="Não tem conta?  Cadastre-se!"
+           android:text="Não tem conta?  Cadastre-se!"/>
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:text="Entrar"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:text="Sair"/>
 
     </LinearLayout>
 
