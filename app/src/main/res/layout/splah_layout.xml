@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_vertical"
-    android:background="#DFAE6A"
+    android:background="#FEBC85"
     android:orientation="vertical"
     tools:context=".SplahActivity">
 
@@ -14,7 +14,7 @@
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
         android:scaleType="centerInside"
-        android:src="@drawable/Petz" />
+        android:src="@drawable/petz" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -22,7 +22,7 @@
         android:layout_gravity="center_horizontal"
         android:fontFamily="@font/righteousregular"
         android:text="Adota-Pet"
-        android:textColor="#613323"
+        android:textColor="#C86E59"
         android:textSize="45sp"
         android:textStyle="bold" />
 

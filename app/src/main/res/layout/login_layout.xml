@@ -12,7 +12,7 @@
         android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
         android:contentDescription="Usuário"
-        android:src="@drawable/Petz"/>
+        android:src="@drawable/petz"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
