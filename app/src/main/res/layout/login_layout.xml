@@ -34,6 +34,7 @@
         android:layout_height="wrap_content">
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtusuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:maxLength="100"
@@ -41,6 +42,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtusenha"
         android:layout_width="match_parent"
         app:startIconDrawable="@drawable/baseline_vpn_key"
         android:padding="10dp"
@@ -60,13 +62,36 @@
     </com.google.android.material.textfield.TextInputLayout>
 
        <TextView
+           android:id="@+id/btncadastrar"
            android:layout_width="wrap_content"
            android:fontFamily="@font/righteousregular"
            android:layout_height="wrap_content"
            android:layout_gravity="end"
            android:layout_marginTop="10sp"
-           android:text="Não tem conta?  Cadastre-se!"
+           android:text="Não tem conta?  Cadastre-se!"/>
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/btnentrar"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:text="Entrar"/>
+
+
+        <Button
+            android:id="@+id/btnsair"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:text="Sair" />
 
     </LinearLayout>
 

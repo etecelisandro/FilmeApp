@@ -6,6 +6,9 @@ import android.os.Bundle;
 
 public class LoginActivity extends AppCompatActivity {
 
+    Button btnentrar, btnsair;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
