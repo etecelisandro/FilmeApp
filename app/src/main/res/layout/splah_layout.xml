@@ -14,7 +14,7 @@
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
         android:scaleType="centerInside"
-        android:src="@drawable/logobg" />
+        android:src="@drawable/Petz" />
 
     <TextView
         android:layout_width="wrap_content"
