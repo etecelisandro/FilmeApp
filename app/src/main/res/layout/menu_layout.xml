@@ -4,16 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FDBB84"
     android:orientation="vertical"
     tools:context=".MenuActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="4dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="180dp"
+            android:backgroundTint="#C3B124D1"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="7dp"
+            android:id="@+id/idMenuPetshop"
             android:layout_height="200dp">
 
             <LinearLayout
@@ -47,6 +54,10 @@
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="180dp"
+            android:backgroundTint="#C32449D1"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="7dp"
+            android:id="@+id/idMenuDogs"
             android:layout_height="200dp">
 
             <LinearLayout
@@ -81,11 +92,17 @@
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="4dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="180dp"
+            android:backgroundTint="#C36EA9C5"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="7dp"
+            android:id="@+id/idMenuAdocao"
             android:layout_height="200dp">
 
             <LinearLayout
@@ -119,6 +136,10 @@
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="180dp"
+            android:backgroundTint="#C324D178"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="7dp"
+            android:id="@+id/idMenuVaccine"
             android:layout_height="200dp">
 
             <LinearLayout
@@ -153,11 +174,16 @@
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:gravity="center"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="180dp"
+            android:backgroundTint="#C3F3C335"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="7dp"
+            android:id="@+id/idMenuPetfood"
             android:layout_height="200dp">
 
             <LinearLayout
@@ -191,6 +217,10 @@
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="180dp"
+            android:backgroundTint="#ED4F4F"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="7dp"
+            android:id="@+id/idMenuCats"
             android:layout_height="200dp">
 
             <LinearLayout

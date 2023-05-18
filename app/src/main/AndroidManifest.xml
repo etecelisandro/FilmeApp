@@ -12,6 +12,24 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".Petfood_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Cats_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Vaccine_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Adocao_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Dogs_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Petshop_Activity"
+            android:exported="false" />
+        <activity
             android:name=".CadUsuActivity"
             android:exported="false" />
         <activity
@@ -22,19 +40,16 @@
             android:exported="false" />
         <activity
             android:name=".SplahActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

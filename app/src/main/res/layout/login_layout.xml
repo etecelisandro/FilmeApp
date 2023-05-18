@@ -41,6 +41,7 @@
         android:hint="Insira o Usuàrio"/>
     </com.google.android.material.textfield.TextInputLayout>
 
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtusenha"
         android:layout_width="match_parent"
@@ -93,6 +94,7 @@
             android:layout_weight="1"
             android:text="Sair" />
 
+    </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>
