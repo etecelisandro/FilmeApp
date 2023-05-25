@@ -15,6 +15,8 @@ public class CachorroFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
        View view = inflater.inflate(R.layout.fragment_cachorro, container, false);
+       //todos os comandos devem ficar aqui
+
         return view;
     }
 }
