@@ -3,42 +3,42 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Petshop_Activity">
 
     <com.google.android.material.tabs.TabLayout
+        android:id="@+id/idTablayout"
         android:layout_width="match_parent"
-        android:contentDescription="tab"
-        android:id="@+id/tablayout"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:contentDescription="tab">
 
         <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/idTabGatos"
-            android:text="Gatos"/>
-
-        <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="Gatos" />
+
+        <com.google.android.material.tabs.TabItem
             android:id="@+id/idTabPassaros"
-            android:text="Passaros"/>
-
-        <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="Passaros" />
+
+        <com.google.android.material.tabs.TabItem
             android:id="@+id/idTabRamster"
-            android:text="Ramster"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ramster" />
 
 
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/idViewpaerPetshop"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/idViewpaerPetshop"
-        android:layout_below="@+id/tablayout"/>
+        android:layout_below="@+id/tablayout" />
 
 
 </RelativeLayout>
