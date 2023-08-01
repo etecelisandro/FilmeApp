@@ -35,7 +35,7 @@
                     android:padding="15dp"
                     android:layout_gravity="center"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/petshopp" />
+                    android:src="@drawable/hambveg" />
 
 
                 <TextView
@@ -45,7 +45,7 @@
                     android:fontFamily="@font/righteousregular"
                     android:text="veg hamb"
                     android:textAllCaps="true"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
 
             </LinearLayout>
 
@@ -72,7 +72,7 @@
                     android:padding="15dp"
                     android:layout_gravity="center"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/dog"/>
+                    android:src="@drawable/legumees"/>
 
 
                 <TextView
@@ -80,9 +80,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/righteousregular"
-                    android:text="Dogs"
+                    android:text="legumes"
                     android:textAllCaps="true"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
 
             </LinearLayout>
 
@@ -117,7 +117,7 @@
                     android:padding="15dp"
                     android:layout_gravity="center"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/adocao" />
+                    android:src="@drawable/comidaveg" />
 
 
                 <TextView
@@ -125,9 +125,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/righteousregular"
-                    android:text="ado cão"
+                    android:text="comida veg"
                     android:textAllCaps="true"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
 
             </LinearLayout>
 
@@ -154,7 +154,7 @@
                     android:padding="15dp"
                     android:layout_gravity="center"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/owner" />
+                    android:src="@drawable/armveg" />
 
 
                 <TextView
@@ -162,9 +162,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/righteousregular"
-                    android:text="vaccine"
+                    android:text="armezar"
                     android:textAllCaps="true"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
 
             </LinearLayout>
 
