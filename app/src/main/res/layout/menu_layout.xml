@@ -198,7 +198,7 @@
                     android:layout_gravity="center"
                     android:scaleType="centerCrop"
                     android:padding="15dp"
-                    android:src="@drawable/petfood" />
+                    android:src="@drawable/receitaveg" />
 
 
                 <TextView
@@ -206,9 +206,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/righteousregular"
-                    android:text="pet food"
+                    android:text="receitas veg"
                     android:textAllCaps="true"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
 
             </LinearLayout>
 
@@ -235,17 +235,16 @@
                     android:layout_gravity="center"
                     android:padding="15dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/cat" />
-
+                    android:src="@drawable/plantioveg" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/righteousregular"
-                    android:text="cat's"
+                    android:text="plantio veg"
                     android:textAllCaps="true"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
 
             </LinearLayout>
 
