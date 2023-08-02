@@ -17,15 +17,15 @@
         android:layout_margin="30dp">
 
     <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
         android:contentDescription="Usuário"
-        android:src="@drawable/petz"/>
+        android:src="@drawable/logoveg"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        app:startIconDrawable="@drawable/baseline_pets"
+        app:startIconDrawable="@drawable/baseline_user1"
         android:padding="10dp"
         app:boxCornerRadiusBottomEnd="20dp"
         app:boxCornerRadiusTopEnd="20dp"
@@ -34,12 +34,12 @@
         app:endIconMode="clear_text"
         android:layout_height="wrap_content">
 
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/txtusuario"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:maxLength="100"
-        android:hint="Insira o Usuàrio"/>
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtusuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Insira o Usuàrio"
+            android:maxLength="100" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
