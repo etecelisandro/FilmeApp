@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/idListaFilmes"
+    android:id="@+id/idCardFilmes"
     android:layout_width="190dp"
     android:layout_height="260dp"
     android:clickable="true"
@@ -16,11 +16,11 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imgfilmes"
+            android:id="@+id/idImagemFilmes"
             android:layout_width="180dp"
             android:layout_height="200dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/apocalipe"
+            android:src="@drawable/apocalipe"/>
 
 
         <TextView
@@ -31,6 +31,7 @@
             android:fontFamily="@font/righteousregular"
             android:text="APOCALIPSE"
             android:textAllCaps="true"
+            android:id="@+id/idTituloFilmes"
             android:textColor="#000"
             android:textSize="20dp"
             android:textStyle="bold" />
