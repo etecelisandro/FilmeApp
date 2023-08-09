@@ -23,6 +23,31 @@ public class MainActivity extends AppCompatActivity {
         idRecyclerView = findViewById(R.id.idListaFilmes);
         ListaFilmes = new ArrayList<>();
 
+        ListaFilmes.add(
+                new Filmes("Apocalipe"
+                "Filme Apocaliptico",
+                        "Ação",
+                        R.drawable.apocalipe)
+        );
+        ListaFilmes.add(
+                new Filmes("Desejos"
+                        "Filme Apocaliptico",
+                        "Ação",
+                        R.drawable.desejos)
+        );
+        ListaFilmes.add(
+                new Filmes("Folha"
+                        "Filme Apocaliptico",
+                        "Ação",
+                        R.drawable.folha)
+        );
+        ListaFilmes.add(
+                new Filmes("Menina"
+                        "Filme Apocaliptico",
+                        "Ação",
+                        R.drawable.menina)
+        );
+
         MyAdapter adapter = new MyAdapter(getApplicationContext(),ListaFilmes);
         idRecyclerView.setLayoutManager(new
                 GridLayoutManager(
