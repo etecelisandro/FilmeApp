@@ -47,6 +47,18 @@ public class MainActivity extends AppCompatActivity {
                         "Ação",
                         R.drawable.menina)
         );
+        ListaFilmes.add(
+                new Filmes("Ponta Bala"
+                        "Filme Apocaliptico",
+                        "Ação",
+                        R.drawable.pontabala)
+        );
+        ListaFilmes.add(
+                new Filmes("Dois mil e sessetnaesete"
+                        "Filme Apocaliptico",
+                        "Ação",
+                        R.drawable.doismilesessetnaesete)
+        );
 
         MyAdapter adapter = new MyAdapter(getApplicationContext(),ListaFilmes);
         idRecyclerView.setLayoutManager(new
